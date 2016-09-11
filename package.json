@@ -1,0 +1,37 @@
+{
+    "author": "rob@rorpage.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "wampa",
+    "pebble": {
+        "displayName": "Wampa",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "KEY_BUTTON"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/wampa_face_28.png",
+                    "menuIcon": true,
+                    "name": "wampa_face_28",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "4b4a90b3-c5e1-4fdd-abd5-81c54c912e58",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
